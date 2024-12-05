@@ -227,40 +227,71 @@
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento1.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento1_thumb.jpg" class="img-fluid" alt="Departamento Moderno">
-            </a>
+        <div class="row gy-4 align-items-stretch">
+          <div class="col-lg-6">
+            <!-- Bootstrap Carousel -->
+            <div id="galleryCarousel" class="carousel slide h-100" data-bs-ride="carousel">
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                  <a href="assets/img/gallery/departamento1.webp" class="glightbox gallery-lightbox">
+                    <img src="assets/img/gallery/departamento1.webp" class="d-block w-100 h-100" alt="Departamento 1" style="object-fit: cover;">
+                  </a>
+                </div>
+                <div class="carousel-item h-100">
+                  <a href="assets/img/gallery/cocina.webp" class="glightbox gallery-lightbox">
+                    <img src="assets/img/gallery/cocina.webp" class="d-block w-100 h-100" alt="Cocina" style="object-fit: cover;">
+                  </a>
+                </div>
+                <div class="carousel-item h-100">
+                  <a href="assets/img/gallery/sala.webp" class="glightbox gallery-lightbox">
+                    <img src="assets/img/gallery/sala.webp" class="d-block w-100 h-100" alt="Sala" style="object-fit: cover;">
+                  </a>
+                </div>
+                <div class="carousel-item h-100">
+                  <a href="assets/img/gallery/baño.webp" class="glightbox gallery-lightbox">
+                    <img src="assets/img/gallery/baño.webp" class="d-block w-100 h-100" alt="Baño" style="object-fit: cover;">
+                  </a>
+                </div>
+                <div class="carousel-item h-100">
+                  <a href="assets/img/gallery/terraza.webp" class="glightbox gallery-lightbox">
+                    <img src="assets/img/gallery/terraza.webp" class="d-block w-100 h-100" alt="Terraza" style="object-fit: cover;">
+                  </a>
+                </div>
+                <div class="carousel-item h-100">
+                  <a href="assets/img/gallery/jacuzzi.webp" class="glightbox gallery-lightbox">
+                    <img src="assets/img/gallery/jacuzzi.webp" class="d-block w-100 h-100" alt="Jacuzzi" style="object-fit: cover;">
+                  </a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div><!-- End Carousel -->
           </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento2.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento2_thumb.jpg" class="img-fluid" alt="Sala de Estar">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento3.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento3_thumb.jpg" class="img-fluid" alt="Cocina Moderna">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento4.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento4_thumb.jpg" class="img-fluid" alt="Dormitorio Principal">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento5.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento5_thumb.jpg" class="img-fluid" alt="Baño Elegante">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento6.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento6_thumb.jpg" class="img-fluid" alt="Terraza con Vista">
-            </a>
+          <div class="col-lg-6 d-flex align-items-stretch">
+            <div>
+              <h5 class="mb-3">Cocina Moderna</h5>
+              <p class="fs-6">Nuestra cocina está equipada con electrodomésticos de última generación y un diseño ergonómico que facilita la preparación de alimentos, creando un espacio funcional y estéticamente agradable.</p>
+              
+              <h5 class="mb-3">Jacuzzi de Lujo</h5>
+              <p class="fs-6">Disfruta de un relajante jacuzzi con vistas panorámicas de la ciudad, perfecto para relajarte después de un largo día de trabajo.</p>
+              
+              <h5 class="mb-3">Baño Elegante</h5>
+              <p class="fs-6">Nuestros baños cuentan con acabados de alta calidad, iluminación suave y materiales sostenibles, ofreciendo un ambiente cómodo y lujoso.</p>
+              
+              <h5 class="mb-3">Sala de Estar</h5>
+              <p class="fs-6">La sala de estar está diseñada para promover la colaboración y el descanso, con muebles ergonómicos y un ambiente acogedor.</p>
+              
+              <h5 class="mb-3">Terraza Espaciosa</h5>
+              <p class="fs-6">La terraza ofrece un espacio al aire libre ideal para reuniones informales, eventos corporativos o simplemente para disfrutar del aire fresco y las vistas.</p>
+            </div>
           </div>
         </div>
-
       </div>
 
     </section><!-- /Gallery Section -->
@@ -673,54 +704,6 @@
 
     </section><!-- /Team Section -->
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h3>Galería</h3>
-        <p>Interiores de Nuestros Departamentos</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento1.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento1_thumb.jpg" class="img-fluid" alt="Departamento Moderno">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento2.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento2_thumb.jpg" class="img-fluid" alt="Sala de Estar">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento3.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento3_thumb.jpg" class="img-fluid" alt="Cocina Moderna">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento4.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento4_thumb.jpg" class="img-fluid" alt="Dormitorio Principal">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento5.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento5_thumb.jpg" class="img-fluid" alt="Baño Elegante">
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="assets/img/gallery/departamento6.jpg" class="glightbox gallery-lightbox">
-              <img src="assets/img/gallery/departamento6_thumb.jpg" class="img-fluid" alt="Terraza con Vista">
-            </a>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Gallery Section -->
-
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -893,6 +876,23 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Inicialización de Bootstrap Carousel -->
+  <script>
+    var galleryCarousel = document.querySelector('#galleryCarousel');
+    var carousel = new bootstrap.Carousel(galleryCarousel, {
+      interval: 3000,
+      wrap: true,
+      pause: 'hover'
+    });
+  </script>
+
+  <!-- Inicialización de GLightbox -->
+  <script>
+    const lightbox = GLightbox({
+      selector: '.gallery-lightbox'
+    });
+  </script>
 
 </body>
 
